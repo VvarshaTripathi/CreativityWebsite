@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    background-image: url(/assets/shades\ -girl.PNG);
+    background-repeat: no-repeat;
+    
+    margin-top: -1rem;
+    margin-left: -0.4rem;
+    height: 100vh;
+}
+
+
+.nav-container{
+    display: flex;
+    list-style-type: none;
+    gap: 70px;
+    margin-left: 45rem;
+    margin-top: -2.5rem;
+}
+
+.nav-item{
+    font-size: large;
+    font-family: "Poppins", sans-serif;
+    color: #8e8d8d;
+}
+
+
+.nav-item:nth-child(1){
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+.logo-1{
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+.nav-container::before {
+    content: "";
+    height: 1px;
+    width: 250px;
+    background: #515150;
+    margin-top: 10px;
+    margin-left: -15rem;
+  }
+
+
+.top{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5rem;
+}
+
+
+.text-1  {
+    margin-left: -20rem ;
+    font-size: 8rem;
+    line-height: 1.4;
+
+    font-family: "Roboto", serif;
+    font-weight: 550;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+}
+
+
+.text-2{
+    font-size: 8rem;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 2px;
+    font-weight: 600;
+    margin-top: -10rem;
+    line-height: 0.5;
+    margin-left: -5rem;
+
+}
+
+
+.text-details{
+    margin-top: -4rem;
+    
+
+}
+
+
+.socials-icon{
+    
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    margin-top: -3rem;
+    margin-left: 7rem;
+}
+
+
+.text-part-1{
+    color: #828282;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-left: 8rem;
+}
+
+.btn-package{
+   margin-left: 70%;
+   padding: 15px;
+   width: 270px;
+   font-size: larger;
+   color: white;
+   background-color: #333333;
+   border: none;
+   margin-top: -2rem;
+   cursor: pointer;
+   box-shadow: 4px 4px 4px grey;
+}
+
+.btn-1{
+    margin-top: 3rem;
+}
+
+
+.list{
+    display: flex;
+    flex-direction: column;
+    margin-top: -7rem;
+    margin-left: 44%;
+    color: #333333;
+    font-size: larger;
+    
+}
+
+
+.list-item span {
+display: inline-block;
+content: "";
+width: 13px;
+height: 13px;
+position: relative;
+border-radius: 8px;
+background: #5d5d5d;
+margin-right: 1.4rem;
+
+}
+
+
+.list-item span::after {
+    
+    display: inline-block;
+    width: 2px;
+    height: 75px;
+    background: #5d5d5d;
+    position: absolute;
+    left: 4px;
+    content: "";
+  }
+
+
+#bb-1{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.text{
+    margin-left: 62%;
+    margin-top: -15.5rem;
+
+}
+
+
+.graphics-1{
+    color: black;
+    font-size: large;
+    font-size: 500;
+}
+
+
+.Dance-img{
+    margin-left: 60%;
+    margin-top: 1rem;
+}
+
+
+.img-upward{
+    margin-top: -22%;
+    margin-left: 85%;
+    
+}
+
+
+@media screen and (max-width: 768px) {
+
+    /* .main-container{
+        display: flex;
+        flex-direction: column;
+
+    } */
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+        background-position: bottom;
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+        background-position: bottom;
+        /* width: auto;
+        height: auto;
+        overflow: auto;
+        display: flex;
+        flex-direction: column; */
+        
+    }  
+        
+    
+    .top {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        
+        align-items: center;
+        justify-content: space-between;
+        margin: 1rem;
+        margin-top: 30rem;
+        gap: 0;
+        align-items: center;
+    }
+
+    .text-1{
+        margin-left: 3rem;
+        font-size: 7rem;
+        line-height: 0.9;
+        font-family: "Merriweather", serif;
+        font-weight: 600;
+        -webkit-text-fill-color: white;
+        -webkit-text-stroke: 1px;
+    }
+    .text-2{
+        margin-left: 3rem;
+        font-size: 7rem;
+        line-height: 0.9;
+        font-family: "Merriweather", serif;
+        font-weight: 600;
+        color: #333333;
+    }
+    .logo-1{
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+
+    .text-part-1{
+        font-size: 1.5rem;
+        font-family: "Merriweather", serif;
+        color: #333333be;
+        font-weight: 600;
+        margin-left: 3rem;
+    }
+    .socials-icon{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        gap: 1rem;
+        margin-top: 2rem;
+        margin-left: 3rem;
+        margin-bottom: 0rem;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+    }
+
+    .btn-1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+
+    .btn-package{
+        padding: 1rem;
+        background: #333;
+        color: #fff;
+        border: none;
+        font-size: 1rem;
+        position: static;
+        margin-left: 8rem;
+  
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        gap: 2rem;
+        font-size: 1.2rem;
+        color: #5d5d5d;
+        padding: 5rem;
+        margin-left: 4rem;
+    }
+    
+
+    .list-item span {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        background: #5d5d5d;
+        margin-right: 1.6rem;
+        position: relative;
+       
+    }
+    
+    .list-item span::after {
+        content: "";
+        display: inline-block;
+        width: 1px;
+        height: 70px;
+        background: #5d5d5d;
+        position: absolute;
+        left: 4.5px;
+    }
+    
+
+    .list-item.active {
+        color: #000;
+    }
+
+    .End-part{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .image-container {
+        margin-top:15rem;
+        display: flex;
+        flex-direction: column;
+        margin-left:-40rem;
+    }
+
+    .Dance-img{
+        
+        background-image: url(/assets/dance.jpg);
+        height: 200px;
+        width: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        
+    }
+
+    .img-upward{
+        display: flex;
+        flex-direction: column;
+        background-image: url(/assets/arrow.png);
+        height: 200px;
+        width: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        display: none;
+        padding: 2px;
+    }
+
+
+}
